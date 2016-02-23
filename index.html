@@ -1,0 +1,61 @@
+<!-- Author: Amir Lavi
+======================
+HTML File 
+========= -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Touch Typing </title>
+    <link rel = "stylesheet" href= "design.css"/> <!-- the css file link -->
+    <script type = "text/javascript" src = "js_code.js"> </script> <!-- the java script file link -->
+</head>
+
+<!-- on load of the body function pageListeners will run -->
+<body onload = "pageListeners()">
+    <div class = "wrapPage"> <!-- the wrapper will contain all elements -->
+
+        <!-- the header -->
+        <header>
+            Touch Typing Study
+        </header>
+
+        <!-- first section (the one above) -->
+        <div class = "section">
+            <div id = "textDisplay"> <!-- text will be displayed here --> </div>
+            <div class = "textButtonsBar">
+                <div class = "textSwitchingButton"> Lesson 1 </div>
+                <div class = "textSwitchingButton"> Lesson 2 </div>
+                <div class = "textSwitchingButton"> Lesson 3 </div>
+                <div class = "textSwitchingButton"> Lesson 4 </div>
+                <div class = "textSwitchingButton"> Lesson 5 </div>
+                <div class = "textSwitchingButton"> Lesson 6 </div>
+                <div class = "textSwitchingButton"> Lesson 7 </div>
+            </div>
+        </div>
+
+        <!-- second section (the one below) -->
+        <div class = "section">
+            <label> <textarea cols = "27" rows = "4" id = "userInputBox"> </textarea> </label>
+        </div>
+
+        <!-- the statistics section -->
+        <div class = "statistics">
+            <h1> Statistics: </h1>
+                 <ul>
+                    <li id = "updateTime"> <h2> Time Elapsed: 0:0:0</h2> </li>
+                    <li id = "wordsPerMinute"> <h2> Words Per Minute: </h2> </li>
+                    <li id = "errorPercentage"> <h2>Error Percentage: </h2> </li>
+                    <li id = "charsCount"> <h2> Characters Typed: </h2> </li>
+                </ul>
+        </div>
+
+        <!-- the play/pause and new buttons -->
+        <div class = "timeButton"> PLAY </div>
+        <div class = "timeButton"> NEW </div>
+    </div>
+</body>
+
+</html>
+

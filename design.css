@@ -1,0 +1,146 @@
+/* Author: Amir Lavi */
+/*=================================*/
+/* CSS File - Responsible for the Design */
+/*=======================================*/
+
+/*tag selector for the body*/
+body
+{
+    padding: 20px;
+    margin: auto;
+    background-color: aqua;
+}
+
+/*tag selector for the header*/
+header
+{
+    width: 70%;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    /*design, including text*/
+    border-radius: 50px 50px  50px 50px;
+    background-color: #ff7e44;
+    box-shadow: 1px 1px 5px 1px;
+    text-align: center;
+    font-size: 52px;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 20px #CCCCCC;
+}
+
+/*class for the page wrapper*/
+.wrapPage
+{
+    width: 820px;
+    height: 1020px;
+    margin: auto;
+    padding: 15px;
+    /*design*/
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 1px 2px 20px 20px rgb(115, 95, 150);
+    background-color: azure;
+}
+
+/*class for the main sections*/
+.section
+{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 20px;
+}
+
+/*class for the statistics section*/
+.statistics
+{
+    width: 60%;
+    height: 35%;
+    display: inline;
+    float: left;
+    margin-right: 40px;
+    padding-left: 15px;
+    /*design*/
+    background-color: indigo;
+    color: azure;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/*contextual selectors for the statistics h1, h2*/
+.statistics h1 {
+    font-size: 38px;
+    font-family: "Segoe UI", serif;
+}
+.statistics h2 {
+    font-size: 26px;
+    font-family: Garamond, sans-serif;
+}
+
+/*class for the time buttons*/
+.timeButton {
+    width: 60px;
+    height: 60px;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 60px;
+    /*design*/
+    color:#FFF;
+    border-radius:5px;
+    border:solid 1px #D94E3B;
+    background:#cb3b27;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #84261a;
+}
+
+/*class for the lessons button bar */
+.textButtonsBar
+{
+    width: 100%;
+    height: 20%;
+}
+
+/*class for the text switching option buttons*/
+.textSwitchingButton
+{/**/
+    width: 110px;
+    height: 35px;
+    margin-left: 1px;
+    margin-top: 15px;
+    padding-top: 5px;
+    display: inline-block;
+    /*design*/
+    border-radius: 50px 50px 50px 50px;
+    background-color: #6b5425;
+    box-shadow: 1px 1px 19px 5px rgba(231,166,26,1);
+    font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*id selectors for the text boxes (user and displayed text)*/
+#userInputBox {
+    width: 85%;
+    height: 80%;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+#textDisplay {
+    width: 100%;
+    height: 70%;
+    border: 1px solid;
+    margin-bottom: 11px;
+
+}
+/*common attributes*/
+#textDisplay, #userInputBox {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 40px;
+}
+
