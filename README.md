@@ -1,4 +1,4 @@
-Touch Typing Study
+#Touch Typing Study
 ------------------
 - Author - Amir Lavi.
 
